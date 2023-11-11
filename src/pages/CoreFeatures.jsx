@@ -10,8 +10,8 @@ const CoreFeatures = () => {
   return (
     <section className="max-w-[1200px] flex items-center gap-6 my-10 mx-auto">
       <div>
-        <h1>Core Features</h1>
-        <h4>
+        <h1 className="text-4xl font-bold my-4">Core Features</h1>
+        <h4 className="text-sm">
           It's a long established fact that a reader will be restricrted by the
           readable content
         </h4>
@@ -38,7 +38,7 @@ const CoreFeatures = () => {
       </div>
 
       <div>
-        <img src={coreFeature} alt="" />
+        <img src={coreFeature} alt="" width={800} />
       </div>
     </section>
   );
