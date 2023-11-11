@@ -12,7 +12,9 @@ const Home = () => {
           Oculus Go Standalone Virtual Reality Headse - 32GB
         </h1>
 
-        <h4 className="my-8">User Controlled Playback of 360 Video Content</h4>
+        <h4 className="my-8">
+          User Controlled Playback of 360💫 Video Content
+        </h4>
 
         <CustomButton text="Buy Now" />
       </div>
