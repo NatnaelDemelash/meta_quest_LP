@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import WhyUs from "./pages/WhyUs";
 import CoreFeatures from "./pages/CoreFeatures";
 import VideoSection from "./components/VideoSection";
+import Specifications from "./pages/Specifications";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <WhyUs />
       <CoreFeatures />
       <VideoSection />
+      <Specifications />
     </>
   );
 };
